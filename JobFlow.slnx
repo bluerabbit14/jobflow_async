@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/JobFlow.API/JobFlow.API.csproj" />
+    <Project Path="src/JobFlow.Application/JobFlow.Application.csproj" />
+    <Project Path="src/JobFlow.Domain/JobFlow.Domain.csproj" />
+    <Project Path="src/JobFlow.Infrastructure/JobFlow.Infrastructure.csproj" />
+    <Project Path="src/JobFlow.Worker/JobFlow.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/JobFlow.IntegrationTests/JobFlow.IntegrationTests.csproj" />
+    <Project Path="tests/JobFlow.UnitTests/JobFlow.UnitTests.csproj" />
+  </Folder>
+</Solution>

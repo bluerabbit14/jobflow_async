@@ -1,0 +1,6 @@
+@JobFlow.API_HostAddress = http://localhost:5033
+
+GET {{JobFlow.API_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###

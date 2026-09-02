@@ -1,0 +1,40 @@
+## Build
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vspscc
+*.vssscc
+.vs/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## IDE
+.idea/
+*.swp
+*~
+
+## OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## Secrets
+appsettings.*.local.json
+*.pfx
+.env
+.env.*
+!.env.example
+
+## Test
+TestResults/
+[Cc]overage/
+*.coverage
+*.coveragexml
